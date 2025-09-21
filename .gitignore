@@ -1,0 +1,76 @@
+# ---- OS junk ----
+.DS_Store
+Thumbs.db
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+.eggs/
+.python-version
+
+# ---- Virtual envs ----
+.venv/
+venv/
+env/
+ENV/
+
+# ---- Jupyter ----
+.ipynb_checkpoints/
+
+# ---- Tools / caches ----
+.mypy_cache/
+.pytest_cache/
+.cache/
+.coverage
+htmlcov/
+
+# ---- IDEs ----
+.vscode/
+.idea/
+*.iml
+
+# ---- Logs / temp ----
+logs/
+*.log
+tmp/
+.temp/
+*.tmp
+
+# ---- Data, models & artifacts (tracked via .gitkeep placeholders) ----
+data/
+datasets/
+images/
+raw/
+processed/
+outputs/
+models/
+runs/
+submissions/
+!data/.gitkeep
+!datasets/.gitkeep
+!images/.gitkeep
+!raw/.gitkeep
+!processed/.gitkeep
+!outputs/.gitkeep
+!models/.gitkeep
+!runs/.gitkeep
+!submissions/.gitkeep
+
+# ---- Large binary artifacts anywhere ----
+*.npy
+*.npz
+*.pkl
+*.pickle
+*.joblib
+*.pt
+*.pth
+*.h5
+*.onnx
+*.tflite
+*.gz
+*.zip
