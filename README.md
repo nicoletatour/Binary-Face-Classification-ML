@@ -1,6 +1,6 @@
 # Machine Learning — Binary Face Classification - Kaggle Competition
 
-Classify facial images into **two classes**. You will compare:
+Classify facial images into **two classes**:
 1) an **end-to-end CNN** trained on images, and  
 2) a **feature-based** pipeline using features from a **pretrained CNN** with classical ML (kNN, SVM, Logistic Regression, MLP).
 
